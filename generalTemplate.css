@@ -1,0 +1,322 @@
+/*****************GENERAL TEMPLATE*******************/
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.fontStyle {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#content {
+	position:relative;
+	margin-left:auto;
+    margin-right:auto;
+	top:0px;
+	width:1024px;
+	height:675px;
+}
+
+#div-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1024px;
+	height:27px;
+}
+
+#div-02 {
+	position:absolute;
+	left:0px;
+	top:27px;
+	width:43px;
+	height:143px;
+}
+
+#HomeLink {
+	position:absolute;
+	left:43px;
+	top:27px;
+	width:283px;
+	height:134px;
+    background-image:url('images/HomeLink.gif');
+}
+
+#div-04 {
+	position:absolute;
+	left:326px;
+	top:27px;
+	width:698px;
+	height:15px;
+}
+
+#div-05 {
+	position:absolute;
+	left:326px;
+	top:42px;
+	width:103px;
+	height:128px;
+}
+
+#MainTitle {
+	position:absolute;
+	left:429px;
+	top:42px;
+	width:507px;
+	height:54px;
+    background-image:url('images/MainTitle.gif');
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1.mainTitle {
+    margin-top:0;
+    text-align:center;
+}
+
+#div-07 {
+	position:absolute;
+	left:936px;
+	top:42px;
+	width:88px;
+	height:128px;
+}
+
+#div-08 {
+	position:absolute;
+	left:429px;
+	top:96px;
+	width:507px;
+	height:74px;
+}
+
+#div-09 {
+	position:absolute;
+	left:43px;
+	top:155px;
+	width:283px;
+	height:9px;
+}
+
+#div-10 {
+	position:absolute;
+	left:0px;
+	top:170px;
+	width:18px;
+	height:44px;
+}
+
+#ErrorStatusMessage {
+	position:absolute;
+	left:18px;
+	top:170px;
+	width:624px;
+	height:27px;
+    background-image:url('images/ErrorStatusMessage.gif');
+}
+
+#Signout {
+	position:absolute;
+	left:642px;
+	top:170px;
+	width:373px;
+	height:28px;
+    background-image:url('images/Signout.gif');
+    text-align:center;
+}
+
+p.signoutLine {
+    margin-top:6px;
+}
+
+a.Links {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a.Links:hover {
+    color:red;
+}
+
+#div-13 {
+	position:absolute;
+	left:1015px;
+	top:170px;
+	width:9px;
+	height:505px;
+}
+
+#div-14 {
+	position:absolute;
+	left:18px;
+	top:197px;
+	width:624px;
+	height:17px;
+}
+
+#div-15 {
+	position:absolute;
+	left:642px;
+	top:198px;
+	width:373px;
+	height:16px;
+}
+
+#div-16 {
+	position:absolute;
+	left:0px;
+	top:214px;
+	width:17px;
+	height:461px;
+}
+
+#LeftMenu {
+	position:absolute;
+	left:17px;
+	top:214px;
+	width:230px;
+	height:425px;
+    background-image:url('images/LeftMenu.gif');
+}
+
+#div-18 {
+	position:absolute;
+	left:247px;
+	top:214px;
+	width:45px;
+	height:64px;
+}
+
+#AddDeleteButtons {
+	position:absolute;
+	left:292px;
+	top:214px;
+	width:712px;
+	height:36px;
+    background-image:url('images/AddDeleteButtons.gif');
+}
+
+#div-20 {
+	position:absolute;
+	left:1004px;
+	top:214px;
+	width:11px;
+	height:461px;
+}
+
+#div-21 {
+	position:absolute;
+	left:292px;
+	top:250px;
+	width:712px;
+	height:28px;
+}
+
+#div-22 {
+	position:absolute;
+	left:247px;
+	top:278px;
+	width:44px;
+	height:397px;
+}
+
+#MainContent {
+	position:absolute;
+	left:291px;
+	top:278px;
+	width:713px;
+	height:360px;
+    background-image:url('images/MainContent.gif');
+}
+
+table {
+    width:95%;
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    padding:5px;
+}
+
+table.tr.td.p {
+    color:black;
+}
+
+td {
+    padding:5px;
+}
+
+td.price {
+    text-align:center;
+}
+
+th {
+    border-left:none;
+    border-right:none;
+    background:#ef7d50;
+    color: #fff;
+    curosr:default;
+    text-align:left;
+    padding:5px;
+    cursor:default;
+}
+
+tr:nth-child(odd) {
+    background:#fff4cf;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+tr:nth-child(even) {
+    background:#fff;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+tr:hover {
+    background:#ddd;
+    cursor:pointer;
+}
+
+#div-24 {
+	position:absolute;
+	left:291px;
+	top:638px;
+	width:713px;
+	height:37px;
+}
+
+#div-25 {
+	position:absolute;
+	left:17px;
+	top:639px;
+	width:230px;
+	height:36px;
+}
+
+li {
+    margin-bottom:17px;
+    list-style-type:none;
+}
+
+.buttons {
+    width:80px;
+    height:30px;
+    border: 2px solid #bb7101;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+    background-color:#ef7d50;
+    text-align:center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    margin-right:5px;
+    text-decoration:none;
+}
+
+.buttons:hover {
+    background-color:#ffd8c8;
+    cursor:pointer;
+}
+

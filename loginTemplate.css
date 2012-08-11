@@ -1,0 +1,144 @@
+#login-div-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1024px;
+	height:189px;
+}
+
+#login-div-02 {
+	position:absolute;
+	left:0px;
+	top:189px;
+	width:357px;
+	height:486px;
+}
+
+#errorMessage {
+	position:absolute;
+	left:357px;
+	top:189px;
+	width:312px;
+	height:44px;
+    background-image:url('images/errorMessage.gif');
+}
+
+#login-div-04 {
+	position:absolute;
+	left:669px;
+	top:189px;
+	width:355px;
+	height:113px;
+}
+
+#login-div-05 {
+	position:absolute;
+	left:357px;
+	top:233px;
+	width:312px;
+	height:69px;
+}
+
+#login-div-06 {
+	position:absolute;
+	left:357px;
+	top:302px;
+	width:59px;
+	height:373px;
+}
+
+#usernameField {
+	position:absolute;
+	left:416px;
+	top:302px;
+	width:315px;
+	height:26px;
+    background-image:url('images/usernameField.gif');
+}
+
+#login-div-08 {
+	position:absolute;
+	left:731px;
+	top:302px;
+	width:293px;
+	height:373px;
+}
+
+#login-div-09 {
+	position:absolute;
+	left:416px;
+	top:328px;
+	width:315px;
+	height:37px;
+}
+
+#passwordField {
+	position:absolute;
+	left:416px;
+	top:365px;
+	width:315px;
+	height:25px;
+    background-image:url('images/passwordField.gif');
+}
+
+input.loginInput {
+    border:none;
+    outline-style:none;
+}
+
+#login-div-11 {
+	position:absolute;
+	left:416px;
+	top:390px;
+	width:315px;
+	height:35px;
+}
+
+#login-div-12 {
+	position:absolute;
+	left:416px;
+	top:425px;
+	width:49px;
+	height:250px;
+}
+
+#loginButton {
+	position:absolute;
+	left:465px;
+	top:425px;
+	width:115px;
+	height:34px;
+    background-image:url('images/loginButton.gif');
+}
+
+#loginButton:hover {
+    background-color:#ffd8c8;
+    cursor:pointer;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+input.loginButton {
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    border:none;
+}
+
+#login-div-14 {
+	position:absolute;
+	left:580px;
+	top:425px;
+	width:151px;
+	height:250px;
+}
+
+#login-div-15 {
+	position:absolute;
+	left:465px;
+	top:459px;
+	width:115px;
+	height:216px;
+}
